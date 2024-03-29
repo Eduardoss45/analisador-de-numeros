@@ -1,0 +1,33 @@
+/* Define o estilo para o corpo do documento HTML */
+body {
+    background-color: #494949; /* Cor de fundo cinza escuro */
+    font: normal 15pt Arial, Helvetica, sans-serif; /* Fonte e tamanho do texto */
+}
+
+/* Define o estilo para o cabeçalho */
+header {
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Alinha o texto centralmente */
+}
+
+/* Define o estilo para as seções */
+section {
+    background-color: white; /* Cor de fundo branca */
+    border-radius: 10px; /* Borda arredondada com raio de 10 pixels */
+    padding: 15px; /* Preenchimento interno de 15 pixels */
+    width: 500px; /* Largura da seção */
+    margin: auto; /* Margem automática para centralizar horizontalmente */
+    box-shadow: rgba(0, 0, 0, 0.39) 3px 3px 10px; /* Sombra de caixa para dar profundidade */
+}
+
+/* Define o estilo para o rodapé */
+footer {
+    text-align: center; /* Alinha o texto centralmente */
+    font-style: italic; /* Estilo da fonte como itálico */
+    color: white; /* Cor do texto branco */
+}
+
+/* Define o estilo para todas as imagens */
+img {
+    width: 100%; /* Largura da imagem como 100% do elemento pai */
+}
