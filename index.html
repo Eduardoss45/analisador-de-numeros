@@ -2,29 +2,52 @@
 <html lang="en">
 
 <head>
+    <!-- Definição do conjunto de caracteres e configuração da viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
     <title>Analisador de Numeros</title>
+    <!-- Link para o arquivo de estilos CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header>
+        <!-- Título principal da página -->
         <h1>Analisador de Numeros</h1>
     </header>
-    <section>
-        <div>
-            <p><label>Numero (entre 1 a 100):<input type="number" id="num"><input type="submit" value="Adicionar" onclick="Adicionar()"></label></p>
-            <br><br><select id="seltab" size="6"></select>
-            <br><input type="submit" value="Finalizar" onclick="Finalizar()">
-        </div>
-        <div id="res">
 
+    <!-- Seção principal -->
+    <section>
+        <!-- Div para entrada de números -->
+        <div>
+            <!-- Campo de entrada para o número -->
+            <p>
+                <label>Numero (entre 1 a 100): <input type="number" id="num"></label>
+                <!-- Botão para adicionar o número -->
+                <input type="submit" value="Adicionar" onclick="Adicionar()">
+            </p>
+            <!-- Espaçamento -->
+            <br><br>
+            <!-- Caixa de seleção para exibir os números adicionados -->
+            <select id="seltab" size="6"></select>
+            <!-- Espaçamento -->
+            <br>
+            <!-- Botão para finalizar e calcular estatísticas -->
+            <input type="submit" value="Finalizar" onclick="Finalizar()">
         </div>
+        <!-- Div para exibir os resultados -->
+        <div id="res"></div>
     </section>
+
+    <!-- Rodapé -->
     <footer>
+        <!-- Créditos -->
         <p>&copy; Eduardo de Souza Santos</p>
     </footer>
+
+    <!-- Script JavaScript para funcionalidades interativas -->
     <script src="./js/scripts.js" defer></script>
 </body>
 
